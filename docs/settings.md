@@ -1,7 +1,3 @@
-# Server Settings
-
-This page covers the servers reminder message setup.
-
 # Channel
 
 The reminder message channel is where reminders are sent, when the server is ready to bump.

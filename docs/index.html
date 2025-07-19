@@ -42,6 +42,42 @@
             --notice-tip-background: #0000ff25;
             --docsifytabs-border-color: var(--selection-color);
         }
+
+        .user-permissions {
+            position: relative;
+            padding: 0.25em 0.45em;
+            border-radius: 3px;
+            background: #6155FF;
+            color: white;
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+        
+        .parameter {
+            color: #acacac;
+        }
+
+        .parameter.required {
+            text-decoration: underline red;
+        }
+
+        .green-background-text {
+            background: green;
+            color: white;
+            padding: 0.25em 0.45em;
+            border-radius: 3px;
+        }
+
+        .red-background-text {
+            background: red;
+            color: white;
+            padding: 0.25em 0.45em;
+            border-radius: 3px;
+        }
+
+        table th:first-of-type {
+            width: 30%;
+        }
     </style>
   <script>
     window.$docsify = {
@@ -54,6 +90,8 @@
       coverpage: true,
       loadSidebar: true,
       loadNavbar: true,
+      maxLevel: 4,
+      subMaxLevel: 3,
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
